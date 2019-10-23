@@ -31,3 +31,5 @@ git clone https://github.com/pluto0x0/word3500.git
 **完成配置后，请访问 sql.php 进行数据库的初始化**
 
 *注意，此操作会清空收藏信息！*
+
+[Demo](https://pluto0x0.xyz/test/test.php)
