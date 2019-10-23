@@ -32,4 +32,8 @@ git clone https://github.com/pluto0x0/word3500.git
 
 *注意，此操作会清空收藏信息！*
 
-[Demo](https://pluto0x0.xyz/test/test.php)
+## Demo
+https://pluto0x0.xyz/test/test.php
+
+---
+*单词来源互联网*
