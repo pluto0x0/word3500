@@ -131,6 +131,7 @@ else $is_us = 'checked="checked"';
  <a href="mailto:ying.zf@foxmail.com"><i class="fa fa-envelope" style="font-size:20px;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
  <a href="http://wpa.qq.com/msgrd?v=3&uin=1131234847&site=qq&menu=yes"><i class="fa fa-qq" style="font-size:20px;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
  <a href="https://github.com/pluto0x0"><i class="fa fa-github" style="font-size:20px;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="https://github.com/pluto0x0/word3500/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/pluto0x0/word3500"></a>&nbsp;&nbsp;&nbsp;&nbsp;
  <a href="https://weibo.com/u/6008538011"><i class="fa fa-weibo" style="font-size:20px;"></i></a>
 </center>
 
