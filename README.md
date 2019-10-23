@@ -6,6 +6,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/pluto0x0/word3500)](https://github.com/pluto0x0/word3500/network)
 
 ![BOOK](https://i.loli.net/2019/10/23/ry29NoLqEHGTsSZ.png)
+## Requirements
++ php
++ MySQL
 ## features
 + 发音（英/美音）
 + 标记
@@ -25,7 +28,7 @@ git clone https://github.com/pluto0x0/word3500.git
 + `$width` ：字体宽度；
 + `$cellpadding` ：表格单元边界与单元内容之间的间距；
 + `$font_size` ：字体大小。
----
+
 #### Mysql
 + `$db_name` ：数据库名;
 + `$sql_user` ：数据库用户名;
