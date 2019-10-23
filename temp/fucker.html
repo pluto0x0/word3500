@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script>
+function fun(){
+	console.log("123");
+	$.ajax({
+		url:"tmp.php",
+		data:{
+			id:3,//参数
+			target:1
+		},
+		type:"GET",
+		success:function(re){
+			alert(re);
+			console.log(re);
+		}
+	});
+}
+</script>
+<button onclick="fun()">GO</button>
+</html>

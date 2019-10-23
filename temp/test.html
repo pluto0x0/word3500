@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<script type="text/javascript">
+var a = 1;
+function add(){
+	a = a + 1;
+	document.getElementById("time").innerHTML = a;
+}
+setInterval(add(),1);
+</script>
+
+<p id="time"></p>
+
+<button onclick="int=window.setInterval("clock()",1000)">停止</button>
+
+</body>
+</html>

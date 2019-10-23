@@ -1,0 +1,17 @@
+<script>
+function clearCookie(name) {  
+    document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+}
+function SetCookie(name, value) {
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 600000);//过期时间 2分钟
+    document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+}
+function func1(){
+	setTimeout("alert('HI')", 3000);
+}
+</script>
+<button onclick="SetCookie('continue', '')">set</button>
+<button onclick="clearCookie('continue')">del</button>
+<button onclick="func1()">def</button>
+<button onclick="setTimeout(function(){alert('HI')}, 1000, true)">ios</button>

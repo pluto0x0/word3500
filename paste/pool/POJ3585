@@ -1,0 +1,61 @@
+#include <cstdio>
+#include <cstring>
+#include <iostream>
+#include <algorithm>
+#define REP(i,a,b) for(int i = (a);i <= (b);i++)
+#define PER(i,a,b) for(int i = (a);i >= (b);i--)
+#define SF scanf
+#define PF printf
+#define N 200010
+using namespace std;
+typedef long long ll;
+int T,n,deg[N];
+ll f[N],ans[N];
+int fst[N],nxt[N<<1],to[N<<1],val[N<<1],cnt = 0;
+inline void addedge(int x,int y,int z){
+	nxt[++cnt] = fst[x], fst[x] = cnt, to[cnt] = y, val[cnt] = z;
+}
+void dfs(int u,int fa){
+	f[u] = 0;
+	for(int i = fst[u];i;i = nxt[i]){
+		int v = to[i];
+		if(v == fa) continue;
+		dfs(v,u);
+		f[u] += deg[u] > 1 ? min((ll)val[i],f[v]) : val[i];
+	}
+}
+void dfs(int u,int fa,int edge){
+	if(fa) ans[u] = (deg[u] > 1 ? f[u] : 0) + ans[fa] - min((ll)edge,f[u]);
+	else ans[u] = f[u];
+	for(int i = fst[u];i;i = nxt[i]){
+		int v = to[i];
+		if(v == fa) continue;
+		dfs(v,u,val[i]);
+	}
+}
+void init(){
+	memset(fst,0,sizeof fst);
+	memset(deg,0,sizeof deg);
+	cnt = 0;
+}
+int main()
+{
+	cin>>T;
+	while(T--){
+		init();
+		SF("%d",&n);
+		REP(i,1,n - 1){
+			int x,y,z;
+			SF("%d %d %d",&x,&y,&z);
+			deg[x]++, deg[y]++;
+			addedge(x,y,z);
+			addedge(y,x,z);
+		}
+		dfs(1,0);
+		dfs(1,0,0);
+		ll mx = 0;
+		REP(i,1,n) mx = max(mx,ans[i]);
+		PF("%lld\n",mx);
+	}
+	return 0;
+}
