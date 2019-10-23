@@ -7,8 +7,8 @@ $cellpadding = 3;
 $font_size = 28;
 
 $db_name = 'word3500';
-$sql_user = 'yingzifan';
-$sql_passwd = '54385462YZFbmh';
+$sql_user = 'Your_Mysql_username';
+$sql_passwd = 'Mysql_user_password';
 
 $word_length = 100;
 ?>
