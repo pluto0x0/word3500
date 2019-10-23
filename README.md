@@ -1,6 +1,10 @@
 # word3500
 高考英语词汇3500
 
+[![GitHub stars](https://img.shields.io/github/stars/pluto0x0/word3500)](https://github.com/pluto0x0/word3500/stargazers)
+[![GitHub license](https://img.shields.io/github/license/pluto0x0/word3500)](https://github.com/pluto0x0/word3500/blob/master/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/pluto0x0/word3500)](https://github.com/pluto0x0/word3500/network)
+
 ![BOOK](https://i.loli.net/2019/10/23/ry29NoLqEHGTsSZ.png)
 ## features
 + 发音（英/美音）
