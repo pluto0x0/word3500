@@ -1,17 +1,10 @@
 # Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
-# Other files and folders
-.settings/
+paste_/
+paste/
+temp/
 
 # Executables
-*.swf
-*.air
-*.ipa
-*.apk
+*.html
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
