@@ -32,9 +32,11 @@ git clone https://github.com/pluto0x0/word3500.git
 + `$sql_passwd` ：数据库用户密码；
 + `$word_length` ：数据表中单词字符串的长度。
 
-**完成配置后，请访问 sql.php 进行数据库的初始化**
+**完成配置后，请访问 ```sql.php``` 进行数据库的初始化**
 
 *注意，此操作会清空收藏信息！*
+
+请访问 ```test.php```
 
 ## Demo
 [Demo](https://pluto0x0.xyz/test/test.php)
