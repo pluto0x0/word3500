@@ -9,8 +9,8 @@
 ## Requirements
 + php
 + MySQL
-## features
-+ 发音（英/美音）
+## Features
++ 发音（英/美音）F
 + 标记
 + 筛选
 + 自动朗读
