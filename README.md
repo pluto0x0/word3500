@@ -22,7 +22,7 @@ git clone https://github.com/pluto0x0/word3500.git
 ### Configure
 **请先编辑 [config.php](https://github.com/pluto0x0/word3500/blob/master/config.php) 进行配置。**
 #### Web
-+ `$filename` = '3500.txt' ：单词源文件；
++ `$filename` ：单词源文件；
 + `$self` ：主页文件名；
 + `$interval` ：每一页显示的单词个数；
 + `$width` ：字体宽度；
